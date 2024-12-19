@@ -260,7 +260,7 @@ Epoch 8/8: 100%|██████████| 2413/2413 [38:17<00:00,  1.05it/
 Epoch 8 Loss: 0.02085933081035329
 
 <p align="center">
-    <img src="image-3.png" alt="alt text">
+    <img src="training_loss.png" alt="alt text">
 </p>
 
 
