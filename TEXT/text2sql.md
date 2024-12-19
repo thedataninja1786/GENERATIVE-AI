@@ -51,21 +51,27 @@ The population of France is about 1.2 million.
 
 Question: What was the per-year population of Italy for each year until now?
 Generated Query:
-The population of Italy for each year since the year 2000 was estimated by the Italian Statistical Institute (ISI) using the population of Italy as the reference. The population of Italy for each year since 2000 was estimated by the Italian Statistical Institute (ISI) using the population of Italy as the reference.
+The population of Italy for each year since the year 2000 was estimated by the Italian Statistical Institute (ISI) using
+the population of Italy as the reference. The population of Italy for each year since 2000 was estimated by the Italian
+Statistical Institute (ISI) using the population of Italy as the reference.
 
 Question: How many subjects does the school teach?
 Generated Query:
-The school teaches about 200 subjects, including English, history, geography, history of science, history of medicine, history of technology, history of technology, history of science, history of technology, history of science, history of science, history of science, history of science, history of science, history of science.
+The school teaches about 200 subjects, including English, history, geography, history of science, history of medicine,
+history of technology, history of technology, history of science, history of technology, history of science,
+history of science, history of science, history of science, history of science, history of science.
 
 Question: Find the names of the students and the number of modules they are currently enrolled in.
 Generated Query:
-If you are unsure of the number of students enrolled in a module, you can check the number of students enrolled in a module by clicking on the student's name.
+If you are unsure of the number of students enrolled in a module, you can check the number of students enrolled in a
+module by clicking on the student's name.
 
 Question: How many bicycles were sold between the dates 2023-01-01 and 2023-04-01?
 Generated Query:
 The number of bicycles sold between the dates 2023-01-01 and 2023-04-01 is unknown.
 
-As it can be seen, the initial model generates inaccurate and irrelevant responses to the questions, often hallucinating random facts.
+As it can be seen, the initial model generates inaccurate and irrelevant responses to the questions,
+often hallucinating random facts.
 ```
 
 ## Data: Spider - Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Tasks
