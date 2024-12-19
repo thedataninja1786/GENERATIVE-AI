@@ -168,7 +168,7 @@ dataloader = DataLoader(
         shuffle=True
 )
 
-epochs = 5
+epochs = 8
 optimizer = AdamW(model.parameters(), lr=1e-4)
 warmup_steps = int(0.1 * len(dataloader) * epochs)  # Warm-up for 10% of steps
 scheduler = get_scheduler(
