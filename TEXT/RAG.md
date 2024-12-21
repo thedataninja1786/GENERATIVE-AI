@@ -55,6 +55,8 @@ sme_data = {
 }
 ```
 
+## Encoding and Inference
+
 ```python
 from sentence_transformers import SentenceTransformer
 import faiss
