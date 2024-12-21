@@ -56,6 +56,8 @@ sme_data = {
 ```
 
 ```python
+from sentence_transformers import SentenceTransformer
+import faiss
 
 # encode the SME data
 model = SentenceTransformer('all-MiniLM-L6-v2')
