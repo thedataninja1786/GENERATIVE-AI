@@ -71,10 +71,10 @@ index = faiss.IndexFlatL2(embedding_dim)
 index.add(embeddings)  
 
 # queries for testing
-queries = ["Hello! I have not logged into my account for months, and I cannot renmber my password. Can you help me?",
+queries = ["Hello! I have not logged into my account for months, and I cannot remember my password. Can you help?",
            "How do I file a claim for a motorcycle accident?",
-           "Is it possible to reduct the amount of monthly installments for my loan?",
-           "Why was my transaction declined when I was trying to paying my loan installment?"]
+           "Is it possible to reduce the amount of monthly installments for my loan?",
+           "Why was my transaction declined when I was trying to pay my loan installment?"]
 
 K = 3 # top-k similar sentences
 for query in queries:
