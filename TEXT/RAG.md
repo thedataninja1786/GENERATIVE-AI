@@ -1,4 +1,4 @@
-# Leveraging RAG and FAISS for Customer Query Classification Using SME Data
+# RAG and FAISS for domain-specific query classification with SME data
 
 ### LLMs are generally effective for text generation and answering broad queries, but they tend to perform poorly when dealing with specialized or domain-specific questions. Fine-tuing is often not possible due to computational constrints or limited data. However, with FAISS,  we can leverage pretrained embeddings from large text corpora to efficiently search for custom queries and classify results according to subject matter expertise (SME). https://ai.meta.com/tools/faiss/
 
