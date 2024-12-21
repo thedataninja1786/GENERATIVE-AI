@@ -64,6 +64,9 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
+# Local files
+.\VISION\stable_difussion.py
+
 # Scrapy stuff:
 .scrapy
 
