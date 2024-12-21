@@ -8,7 +8,7 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch
 
-# Load GPT-2 model its tokenizer
+# Load GPT-2 and its tokenizer
 model_name = "gpt2-medium"
 model = GPT2LMHeadModel.from_pretrained(model_name)
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
