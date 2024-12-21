@@ -8,7 +8,7 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch
 
-# Step 1: Load the GPT-2 model and tokenizer
+# Load GPT-2 model its tokenizer
 model_name = "gpt2-medium"
 model = GPT2LMHeadModel.from_pretrained(model_name)
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
@@ -341,5 +341,3 @@ The results are not perfect but highlight the potential of LLMs, specifically in
 - Experiment with more state-of-the-art models
 - Implement early stopping
 - Fine-tune on a more diverse set of SQL queries to improve generalization
-
-These steps can help achieve better performance and more accurate SQL query generation.
